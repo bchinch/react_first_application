@@ -1,0 +1,53 @@
+.QuickSearchcontainer{
+    margin-left:115px;
+    margin-top: 50px;
+}
+.QuickSearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.QuickSearchSubHeading {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imagecontainer {
+    box-shadow: 15px 15px 10px black;
+    width: 400px;
+    height:150px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+.imagetitle{
+    width:50%;
+    float:left;
+
+}
+.imagetitle>img{
+    height:150px;
+    width:160px;
+}
+.imagetitle2{
+    width:50%;
+    float:left;
+    margin-top: 20px;
+}
+.titles{
+    text-align:left;
+    color: #192f60;
+    font-size:18px;
+    font-weight: bold;
+}
+.subtitle{
+    text-align:left;
+    color: #192f60;
+    font-size:14px;
+}
