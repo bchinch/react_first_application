@@ -14,7 +14,7 @@ const HotelListDisplay = (props) => {
                                 <div className="image">
                                     <img src={item.thumb} alt={item.name}></img>
                                 </div>
-                                <Link className="Hotelname" to="/">
+                                <Link className="Hotelname" to={`/details/${item._id}`}>
                                     <h4>{item.name}</h4>
                                     
                                 </Link>

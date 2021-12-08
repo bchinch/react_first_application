@@ -1,0 +1,41 @@
+.containers_con {
+    padding: 10px;
+}
+
+.images_img>img {
+    height: 350px;
+    width: 301px;
+    float: left;
+}
+.data_name {
+    margin-right: 336px;
+    color: blue;
+}
+.data_cityname{
+    margin-right: 336px; 
+}
+.data_city{
+    margin-right: 336px;
+}
+.data_city span {
+
+    text-decoration: line-through;
+}
+
+.data_cost{
+    
+    margin-right: 336px;
+}
+.data_address{
+    margin-right: 336px;
+}
+.data_instock {
+    margin-right: 336px; 
+}
+button {
+    color:red;
+    margin-right: 336px; 
+    padding-right: 31px;
+    padding-left: 31px;
+    margin-top: 10px;
+}
