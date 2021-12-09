@@ -1,14 +1,14 @@
 import React from 'react';
 import './Detail.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const DetailDisplay = (props) => {
 
+console.log(props)
     const hotelDetails = ({ data }) => {
         if (data) {
             return (
                 data.map((item) => {
-                    console.log(item);
                     return (
                         <div className="containers_con" key={item._id}>
                             <div className="images_img">
@@ -33,8 +33,9 @@ const DetailDisplay = (props) => {
                                 <div className="data_instock">
                                     <h1> Available</h1>
                                 </div>
-                                <button><Link to="/">Book Now</Link></button>
-                                
+
+                                <button><Link to={`/booking/${item.name}`}>Book Now</Link></button>
+
 
                             </div>
                         </div>
@@ -48,6 +49,7 @@ const DetailDisplay = (props) => {
         <div className="container">
             <div className="title">
                 {hotelDetails(props)}
+                
             </div>
 
         </div>

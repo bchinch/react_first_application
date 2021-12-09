@@ -1,0 +1,54 @@
+{
+  "booking": [
+    {
+      "id": 393474,
+      "user_firstname": "bhagya",
+      "user_lastname": "nsjehu",
+      "user_email": "hj",
+      "user_num": "judhi",
+      "hotel_name": "Rodas - An Ecotel Hotel",
+      "hotel_cost": "4254",
+      "date": "2021-12-18"
+    },
+    {
+      "id": 383479,
+      "user_firstname": "bhagya",
+      "user_lastname": "",
+      "user_email": "",
+      "user_num": "",
+      "hotel_name": "Hometel Chandigarh",
+      "hotel_cost": "2419",
+      "date": ""
+    },
+    {
+      "id": 959208,
+      "user_firstname": "bhagyadc",
+      "user_lastname": "hg",
+      "user_email": "jh",
+      "user_num": "gu",
+      "hotel_name": "Hometel Chandigarh",
+      "hotel_cost": "2419",
+      "date": "2021-12-16"
+    },
+    {
+      "id": 331691,
+      "user_firstname": "bhagya",
+      "user_lastname": "cvmd",
+      "user_email": "kj",
+      "user_num": "j",
+      "hotel_name": "Hometel Chandigarh",
+      "hotel_cost": "2419",
+      "date": "2021-12-23"
+    },
+    {
+      "id": 374899,
+      "user_firstname": "bhagya",
+      "user_lastname": "",
+      "user_email": "",
+      "user_num": "",
+      "hotel_name": "Hometel Chandigarh",
+      "hotel_cost": "2419",
+      "date": ""
+    }
+  ]
+}
